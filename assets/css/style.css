@@ -1,0 +1,19 @@
+/* Gereral styles */
+body {
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: lightcoral;
+}
+
+/* Main */
+main {
+    background-color: lightgreen;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+}
