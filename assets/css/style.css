@@ -3,10 +3,24 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: antiquewhite;
+}
+
+.vertical-center {
+    align-self: center;
+}
+
 /* Header */
 header {
     background: url("../images/pexels-lukas-952478-hero-edit.webp") center / cover no-repeat;
     height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    padding-top: 20px;
 }
 
 /* Main */
