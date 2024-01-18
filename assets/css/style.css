@@ -17,7 +17,7 @@ h1 {
 /* Header */
 header {
     background: url("../images/pexels-lukas-952478-hero-edit.webp") center center / cover no-repeat;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
 }
@@ -44,6 +44,10 @@ nav a {
 main {
     background: url("../images/pexels-pixabay-326311-main-edit.webp") center / cover no-repeat fixed;
     flex: 1 0 auto;
+}
+
+.plate {
+    padding: 20px 0;
 }
 
 /* Footer */
