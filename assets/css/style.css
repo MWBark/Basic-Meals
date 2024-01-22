@@ -73,6 +73,15 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: lightblue;
+#social-networks {
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    color: black;
 }
