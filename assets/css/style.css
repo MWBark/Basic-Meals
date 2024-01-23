@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
 }
 
-h1, h2, p, ul, ol {
+h1, h2, p, ul, ol, label {
     color: antiquewhite;
 }
 
@@ -78,6 +78,21 @@ li {
 
 .plate {
     padding: 20px 0;
+}
+
+label, input, button {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    padding: 5px 15px;
+    font-size: 80%;
+    margin-top: 10px;
 }
 
 /* Footer */

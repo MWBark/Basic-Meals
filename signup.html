@@ -25,21 +25,23 @@
     </nav>
 
     <main>
-        <div class="chalkboard">
-            <h2>What are we About?</h2>
-            <hr>
-            <p>Recipes with a few simple ingredients that won't break the bank</p>
-            <p>Easy preperation and minimal cooking time</p>
-        </div>
         <div class="plate">
             <img src="assets/images/plate-placeholder.webp" alt="White plate with pasta on">
         </div>
-        <div class="chalkboard">
-            <h2>Want to Sign Up?</h2>
+        <form class="chalkboard" method="POST" action="https://formdump.codeinstitute.net">
+            <h2>Sign Up</h2>
             <hr>
-            <p>Sign up to recieve emails about new and upcoming recipes</p>
-            <p>You can also follow us on the social links at the bottom of the page</p>
-        </div>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
         <div class="plate">
             <img src="assets/images/plate-placeholder.webp" alt="Chickpea curry on white plate">
     </main>
