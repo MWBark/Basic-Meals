@@ -21,14 +21,14 @@ h1 {
 
 /* Header */
 header {
-    background: url("../images/pexels-lukas-952478-hero-edit.webp") center center / cover no-repeat;
+    background: url("../images/pexels-lukas-952478-hero-edit.webp") center 55% / cover no-repeat;
     height: 40vh;
     display: flex;
     justify-content: center;
 }
 
-header h1 {
-    padding-top: 20px;
+h1 {
+    padding-top: 15px;
 }
 
 nav {
@@ -107,4 +107,14 @@ button {
 #social-networks i {
     font-size: 160%;
     color: black;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 300%;
+    }
+    
+    nav a:hover{
+        border-bottom: 1px solid black;
+    }
 }
