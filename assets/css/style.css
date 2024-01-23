@@ -19,6 +19,11 @@ h1 {
     align-self: center;
 }
 
+div {
+    overflow: auto;
+    max-height: 600px;
+}
+
 /* Header */
 header {
     background: url("../images/pexels-lukas-952478-hero-edit.webp") center 55% / cover no-repeat;
@@ -68,6 +73,10 @@ main {
     font-size: 200%;
 }
 
+.ingredients {
+    max-width: 400px;
+}
+
 ul, ol {
     text-align: left;
 }
@@ -107,6 +116,12 @@ button {
 #social-networks i {
     font-size: 160%;
     color: black;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 500px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
