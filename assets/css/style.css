@@ -73,6 +73,10 @@ main {
     font-size: 200%;
 }
 
+img {
+    width: 300px;
+}
+
 .ingredients {
     max-width: 400px;
 }
@@ -120,7 +124,7 @@ button {
 
 @media screen and (min-width: 768px) {
     img {
-        width: 500px;
+        width: 100%;
     }
 }
 
