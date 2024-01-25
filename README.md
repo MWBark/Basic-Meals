@@ -27,13 +27,43 @@ Users will find the information they need in the home page 'What are we about?' 
 
   - With the recipes is a board that contains information on prep/cooking time, aswell as serving amount, and a numbered instruction list.
 
-  - The page hopes to make it clear and simple the ingredients and cooking steps for each meal.
+  - The page hopes to make the ingredients and cooking steps for each meal clear and simple.
 
- 
+- ### Sign Up page
+  - This page contains a form thats asks the user for their first name, last name and email address.
 
+  - This data will be used to contact the user about new recipes or any other new features like newsletters or compititions.
 
 ## Testing
 
+- I have confirmed the website works and looks good across the standard screen sizes using developer tools.
+
+- I have confirmed the text across the site is readable and understandable.
+
+- I have confirmed the sign up page form works (requires text in the name fields, valid email in the email field and the submit button works).
+
 ## Deployment
 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab
+
+  - Click on 'Pages' on the left side menu
+
+  - In the dropdown menu under 'Branch' select 'main'
+
+  - Return to the repository. On the right of the screen click on 'Deployments'
+
+  - The page link will be shown under 'github-pages'
+
+The live link can be found here - [Basic Meals](https://mwbark.github.io/Basic-Meals/)
+
 ## Credits
+
+### Content
+- The code for the footer was taken/adapted from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) project.
+
+- The icons were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+- The background images for the header and main sections were taken from [Pexels](https://www.pexels.com/)
