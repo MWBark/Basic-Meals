@@ -19,11 +19,6 @@ h1 {
     align-self: center;
 }
 
-div {
-    overflow: auto;
-    max-height: 600px;
-}
-
 /* Header */
 header {
     background: url("../images/pexels-lukas-952478-hero-edit.webp") center 55% / cover no-repeat;
@@ -65,17 +60,23 @@ main {
 .chalkboard {
     background-color: #272727;
     padding: 0 15px;
-    margin: 20px;
+    margin: 30px;
     text-align: center;
     border: groove 5px chocolate;
     border-radius: 8px;
     font-family: 'Caveat' , cursive;
-    font-weight: 700;
-    font-size: 200%;
+    font-weight: 400;
+    font-size: 150%;
 }
 
 img {
     width: 300px;
+}
+
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .ingredients {
@@ -83,7 +84,6 @@ img {
 }
 
 .cook-guide {
-    max-width: 400px;
     margin-bottom: 150px;
 }
 
@@ -143,12 +143,6 @@ button {
         border-bottom: 1px solid black;
     }
 
-    .cook-guide {
-        max-width: 900px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
     .cook-guide {
         max-width: 1050px;
     }
